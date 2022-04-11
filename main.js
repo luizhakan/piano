@@ -38,7 +38,7 @@ function verTeclas(event) {
 }
 
 function playAudio(audioKeyCode) {
-  const audio = document.querySelector(`audio[data-key="${audioKeyCode}"])`);
+  const audio = document.querySelector(`audio[data-key="${audioKeyCode}"]`);
   audio.currentTime = 0;
   console.log(audio);
   audio.play();
